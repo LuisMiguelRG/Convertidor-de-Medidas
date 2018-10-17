@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Convertidor</title>
+    </head>
+    <body>
+        <div class="divcontainer">
+            <h1>Convertidor de Medidas</h1>
+            <div class="divtemperatura">
+                <select name="" class="convertion" id="conversor">
+                    <option value="-1" selected disabled>Seleccione una opción de conversión</option>
+                <option value="1">Temperatura</option>
+                <option value="2">Tiempo</option>
+                <option value="3">Longitud</option>
+                </select>
+            </div>
+            <div class="conversor">
+                <div class="divtemperatura2">
+                    <input type="text" id="val1" class="result" onkeyup="tbxCalc(0)">
+                    <select name="" id="cbx1" class="cbxMeasure" onchange="cbxCalc(0)">
+                    </select>
+                </div>
+                <span class="igual">=</span>
+                <div class="divtemperatura3">
+                    <input type="text" id="val2" class="result" onkeyup="tbxCalc(1)">
+                    <select name="" id="cbx2" class="cbxMeasure" onchange="cbxCalc(1)">
+                    </select>
+                </div>
+            </div>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>

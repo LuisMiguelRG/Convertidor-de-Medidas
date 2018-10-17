@@ -1,0 +1,94 @@
+body{
+    font-family: 'Dosis', sans-serif;
+}
+.divcontainer{
+    text-align: center;
+	background-color: gray;
+	padding: 20px 16px 24px 16px;    
+    padding-bottom: 50px;
+    margin-left: 600px;
+    margin-right: 800px;
+}
+.divtemperatura select{
+	width: 100%;
+	background-position-x: 98%;
+    width: 449px;
+    margin-bottom: 10px;    
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 5px 16px 5px 5px;
+    vertical-align: middle;
+}
+.divtemperatura2{
+	display: inline-block;
+    width: 211px;
+    padding-top: 10px;
+}
+.divtemperatura2 input{
+	display: inline-block;
+	border: 1px solid #D9D9D9;    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top: 1px solid silver;
+    font-size: 120%;
+    height: 40px;
+    padding: 1px 6px;
+    text-align: center;
+    width: 197px;   
+}
+.divtemperatura2 select{
+	background-position-x: 95%;
+    width: 211px;
+    border-radius: 0 0 2px 2px;
+    margin-top: -1px;
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 5px 16px 5px 5px;
+    vertical-align: middle;
+}
+.igual{
+	display: inline-block;
+    line-height: 44px;
+    width: 27px;
+    text-align: center;
+    font-size: 26px;
+    color: black;
+    padding-top: 10px;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+.divtemperatura3{
+	display: inline-block;
+    width: 211px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.divtemperatura3 input{
+	display: inline-block;
+	border: 1px solid #D9D9D9;        
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top: 1px solid silver;
+    font-size: 120%;
+    height: 40px;
+    padding: 1px 6px;
+    text-align: center;
+    width: 197px;
+}
+.divtemperatura3 select{
+	background-position-x: 95%;
+    width: 211px;
+    border-radius: 0 0 2px 2px;
+    margin-top: -1px;
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 5px 16px 5px 5px;
+    vertical-align: middle;
+}
